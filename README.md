@@ -1,21 +1,49 @@
-Donation Inventory Management System
+# 📦 Donation Inventory Management System
 
-This is a simple command-line tool built to help local shelters manage their donation inventory. It's a no-frills, easy-to-use application that lets you keep track of what comes in, what goes out, and what you have on hand.
+A lightweight **command-line tool** designed to help local shelters efficiently manage their donation inventory.  
+No unnecessary complexity — just a simple way to track what comes in, what goes out, and what remains on hand.
 
-🚀 Features
-    - Donation Registration: Quickly log new donations with details like the donor's name, the item type (food, clothing, etc.), and the quantity.
-    - Donation Distribution: Record when and how much of an item is given out. The system automatically updates the inventory for you.
+---
 
-    - Reports: Get instant insights with a few simple reports:
-        - Inventory Report: See the current stock levels for all donation types.
-        - Donor Report: View a summary of total contributions from each donor.
-        - Distribution Report: Look back at a log of all past distributions.
+## 🚀 Features
 
-🛠️ How to Run the Application
-    1. Make sure you have Python 3.6 or higher installed on your computer.
-    2. Save all three program files (main.py, data_manager.py, and donation_manager.py) in the same folder.
-    3. Open your terminal or command prompt.
-    4. Navigate to the folder where you saved the files.
-    5. Run the application by typing the following command and pressing Enter:
-			'python main.py'
-    6. Follow the on-screen instructions to get started!
+- **Donation Registration**  
+  Log new donations with donor details, item type (food, clothing, etc.), and quantity.
+
+- **Donation Distribution**  
+  Record distributions and let the system automatically update stock levels.
+
+- **Reports**  
+  Gain quick insights through built-in reporting:
+  - **Inventory Report** – View current stock levels.
+  - **Donor Report** – Track contributions per donor.
+  - **Distribution Report** – Review past distributions.
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Python **3.0+** installed on your system.
+
+### Installation & Usage
+1. Clone or download this repository.  
+2. Ensure the following files are in the same folder:  
+   - `main.py`  
+   - `data_manager.py`  
+   - `donation_manager.py`  
+3. Open your terminal and navigate to the project folder.  
+4. Run the application:  
+   ```bash
+   python main.py
+   ```  
+5. Follow the on-screen prompts to start managing donations. 🎉
+
+---
+
+## 📊 Example Workflow
+1. Add a new donor’s contribution.  
+2. Distribute items when needed.  
+3. Generate a quick inventory report to see what’s left.  
+
+---
